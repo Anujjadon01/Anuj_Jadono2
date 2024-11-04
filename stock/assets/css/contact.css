@@ -1,0 +1,881 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.totel-div{
+    margin-left: 6rem;
+    margin-top: 6rem;
+    margin-right: 6rem;
+}
+
+.logo {
+    gap: 10px;
+    display: flex;
+    color: #00d084 !important;
+    font-size: 2.5rem;
+}
+
+.about3{
+    position: relative;
+    background-image: url(/assets/img/carousel-1.jpg);
+    text-align: end;
+    padding: 100px;
+    height: 400px;
+}
+
+.about3::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header {
+    color: black;
+    padding: 20px 100px;
+    margin-top: 0px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgba(255, 255, 255, .1);
+}
+
+.header .nav-list ul li {
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+}
+
+.header .nav-list ul li [href="#"]::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #00d084;
+    transform-origin: bottom center;
+    transition: anuj 1s ease-in;
+}
+
+.header .nav-list ul li [href="#"]:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom center;
+}
+
+.header .nav-list {
+    position: relative;
+}
+
+.header .nav-list ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header .nav-list ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 1s ease;
+    padding: 3px 8px;
+    color: #9a9a9a;
+}
+
+.header #logo {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.header .nav-list .header-icon .btn1{
+    border: none;
+    padding: .5rem 1rem .5rem 1rem;
+    background-color: #00d084;
+    color: #fff;
+    font-weight: 900;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.header .nav-list .header-icon .btn1:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.about3 {
+    text-align: center;
+}
+
+.about3 .about {
+    font-size: 3.5rem;
+    font-family: 700;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 40px;
+    z-index: 2;
+    position: relative;
+}
+
+
+.about3 .page {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    line-height: 130px;
+    font-size: 120%;
+    animation: page 2s linear;
+    z-index: 2;
+    position: relative;
+}
+
+
+.about3 .page .home-page {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    z-index: 2;
+    position: relative;
+}
+
+.page2 {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    z-index: 2;
+    position: relative;
+}
+
+.about5{
+    color: #00d386;
+    z-index: 2;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.totel{
+    background-color: #f8f8f8 !important;
+    padding: 3rem;
+    margin-bottom: 3rem;
+    width: 542px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.totel .Get{
+    color: #00d084;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.touch-container{
+    display: flex;
+    gap: 50px;
+
+}
+
+.totel .address-cont #map{
+    font-weight: 900;
+    font-size: 2rem;
+    color: #00d084;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+.totel .address-cont .address-saf h4{
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 1.5rem;
+} 
+
+.totel .address-cont .address-saf p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    line-height: 23px;
+    color: #9a9a9a;
+}
+
+
+
+.totel .mail-cont #parse{
+    font-weight: 900;
+    font-size: 2rem;
+    color: #00d084;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+.totel .mail-cont .mail h4{
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 1.5rem;
+} 
+
+.totel .mail-cont .mail p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    /* margin-bottom: 15px; */
+    margin-bottom: 1.5rem;
+    line-height: 23px;
+    color: #9a9a9a;
+}
+
+
+
+.touch-container-2{
+    display: flex;
+    gap: 110px;
+    
+}
+
+.totel .Telephone-cont #Telephone{
+    font-weight: 900;
+    font-size: 2rem;
+    color: #00d084;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+.totel .Telephone-cont .Telephone h4{
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 1.5rem;
+} 
+
+.totel .Telephone-cont .Telephone p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    line-height: 23px;
+    color: #9a9a9a;
+}
+
+
+
+.totel .Yoursite-cont #Yoursite{
+    font-weight: 900;
+    font-size: 2rem;
+    color: #00d084;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+.totel .Yoursite-cont .Yoursite h4{
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 1.5rem;
+} 
+
+.totel .Yoursite-cont .Yoursite p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    line-height: 23px;
+    color: #9a9a9a;
+}
+.send-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.send{
+    background-color: #f8f8f8 !important;
+    padding: 3rem;
+    border-radius: 10px;
+    width: 542px;
+}
+
+
+.send .Message h4{
+    color: #00d084;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+
+.send .Message p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    line-height: 23px;
+    color: #919191;
+}
+
+.send .Message p a {
+    text-decoration: none;
+    color: #00d084 !important;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.input-container .input-1{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 1.5rem;
+}
+
+.input-container .input-1 .name input{
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #fff;
+    color: #919191;
+}
+
+
+.input-container .input-1 .email input{
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #fff;
+    color: #919191;
+}
+
+.input-container-2 .input-2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 1.5rem;
+}
+
+.input-container-2 .input-2 .Phone input{
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #fff ;
+    color: #919191;
+}
+
+
+.input-container-2 .input-2 .project input{
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #fff ;
+    color: #919191;
+}
+
+.send .subject input{
+    width: 100%;
+    padding: 1rem;
+    font-family: 400;
+    background-color: #fff;
+    color: #919191;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 1.5rem;
+}
+
+.send .input-dis .dis{
+    width: 100%;
+    height: 160px;
+    padding: 1rem;
+    font-family: 400;
+    background-color: #fff;
+    color: #919191;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 1.5rem;
+}
+
+.send .button .btn2{
+    width: 100%;
+    padding: 1rem;
+    font-family: 400;
+    background-color:#00d084;
+    color:#fff;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+}
+
+
+.send .button .btn2:hover{
+    background-color: black;
+    cursor: pointer;
+    color: #00d084;
+}
+
+
+.footer{
+    background-color: rgb(23,48,59);
+    width: 100%;
+    height: auto;
+  padding: 3rem 1rem 3rem 1rem;
+    margin-top: 6rem; 
+}
+
+.footer .main-foot-stocker{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(255, 255, 255, 0.08);
+    border-bottom: 1px solid rgb(255, 255, 255, 0.08);
+    padding: 3rem 1rem 3rem 1rem;
+}
+
+.footer .foot-stocker .footer-logo {
+    gap: 10px;
+    display: flex;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.footer .foot-p{
+    line-height: 35px;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    color: #787878;
+    font-family: "Inter", sans-serif;
+}
+
+.footer .Download {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer .Download .apple{
+    display: flex;
+    align-items: center;
+    background-color: #00d084;
+    padding: .5rem 1rem .5rem 1rem;
+    line-height: 30px;
+    width: 182px;
+    gap: 15px;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+
+.footer .Download .apple #app-icon{
+    font-weight: 900;
+    color: #fff;
+}
+
+.footer .Download .apple p{
+    color: #fff;
+    font-family: "Inter", sans-serif;
+}
+
+.footer .Download .apple h4{
+    color: #fff;
+    font-family: "Inter", sans-serif;
+}
+
+
+.footer .Download .google{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: .5rem 1rem .5rem 1rem;
+    line-height: 30px;
+    width: 182px;
+    gap: 15px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.footer .Download .google #google-icon{
+    font-weight: 900;
+    color:#00d084;
+}
+
+.footer .Download .google p{
+    color: #fff;
+    font-family: "Inter", sans-serif;
+}
+
+.footer .Download .google h4{
+    color: #fff;
+    font-family: "Inter", sans-serif;
+}
+
+.footer .Quick .Links p{
+    gap: 10px;
+    display: flex;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.footer .Quick .about .about-2{
+    display: flex;
+    align-items: center;
+    line-height: 35px;
+    font-size: 1.1rem;
+    color: #787878;
+    font-family: "Inter", sans-serif;
+    gap: 10px;
+}
+
+.footer .Quick .about .about-2:hover{
+    color:#00d084;
+    cursor: pointer;;
+}
+
+
+.footer .Support-container .Support p{
+    gap: 10px;
+    display: flex;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.footer .Support-container .Privacy .Privacy-2:hover {
+    color: #00d084;
+    cursor: pointer;
+}
+
+.footer .Support-container .Privacy .Privacy-2{
+    display: flex;
+    align-items: center;
+    line-height: 35px;
+    font-size: 1.1rem;
+    color: #787878;
+    font-family: "Inter", sans-serif;
+    gap: 10px;
+}
+
+
+.footer .Contact .Contact-Us p{
+    gap: 10px;
+    display: flex;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.footer .Contact .Contact-icon .yes{
+    display: flex;
+    align-items: center;
+    line-height: 35px;
+    font-size: 1.1rem;
+    color:#fff;
+    font-family: "Inter", sans-serif;
+    gap: 15px;
+}
+
+.footer .Contact .Contact-icon .yes #check{
+    color: #00d084;
+}
+
+
+
+.footer .Contact .icon {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 30px;
+    gap: 15px;
+    /* text-align: center; */
+}
+
+.footer .Contact .icon .facebook-2 {
+    background-color: #00d084;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.footer .Contact .icon .facebook-2:hover{
+    color: white;
+    background-color: #111;
+    cursor: pointer;
+}
+
+
+.footer2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(17,17,17);
+    height: 85px;
+}
+
+.footer2 #ctype-icon {
+    display: flex;
+    list-style: none;
+    border-bottom: 1px solid white;
+}
+
+.footer2 #ctype-icon #ctry {
+    color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: 4px
+}
+
+.footer2 #ctype-icon a {
+    text-decoration: none;
+}
+
+.footer2 #ctype-icon #site {
+    text-decoration: none;
+    color:#fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.footer2 #ctype-icon #all-right {
+    color: #787878;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.footer2 .HTML .html-p {
+    list-style: none;
+    color: #787878;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.footer2 .HTML .html-p #codex {
+    color:#fff;
+    border-bottom: 1px solid white;
+    margin-bottom: 5px;
+}
+
+.footer2 a {
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:600px) {
+
+    .header{
+        padding: 20px 20px;
+    }
+
+    .touch-container{
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .touch-container-2{
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .input-container .input-1{
+        flex-direction: column;
+    }
+
+    .input-container-2 .input-2{
+        flex-direction: column;
+    }
+
+    .about3 .about {
+        font-size: 25px;
+    }
+
+    .send .Message p {
+        font-size: 15px;
+    }
+    .col-xl-6 iframe{
+        width: 340px;
+        max-height: 300px;
+        margin: 0px;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .totel{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .send{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+.send-2{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+    .footer2{
+        flex-direction: column;
+    }
+
+    .footer2 .HTML .html-p{
+        /* font-size: 15px; */
+        align-items: center;
+    }
+
+    .footer .Download .google{
+        width: 140px;
+    }
+
+    .footer .Download .apple {
+        width: 165px;
+    }
+
+    .footer .main-foot-stocker {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        align-items: start;
+        gap: 20px;
+    }
+
+    .footer2{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer2 .HTML .html-p{
+        /* font-size: 15px; */
+        align-items: center;
+    }
+}
+
+
+.header .nav-list #bar20 {
+    display: none;
+}
+
+.header .nav-list #reserved {
+    display: none;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width:600px) {
+    .header .nav-list .heade-1{
+        display: none;
+    }
+
+    .header .nav-list #reserved {
+        display: none;
+           
+        display: none;
+        /* flex-wrap: wrap; */
+        height: auto;
+        line-height: 5px;
+        background-color: #f0e68c;
+        padding-top: 8px;
+        margin-right: 35px;
+    }
+
+    .header .nav-list #bar20 {
+        font-size: 40px;
+        color: #00d084;
+        display: block;
+    }
+
+    
+    #btn2 {
+        margin-top: 83px;
+    }
+
+    .header .nav-list #bar20 {
+        font-size: 40px;
+        display: block;
+    }
+
+    .header .nav-list ul {
+        position: fixed;
+        background-color: white;
+        width: 76px;
+        right: 0px;
+        margin-right: 5px;
+    }
+
+    .header .nav-list ul li {
+        margin-bottom: 20px;
+        color: black;
+    }
+}
+
+@media screen and (min-width:601px) {
+    .header .nav-list #reserved {
+        display: none !important;
+    }
+}
